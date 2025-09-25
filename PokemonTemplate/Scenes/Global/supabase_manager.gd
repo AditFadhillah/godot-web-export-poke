@@ -5,8 +5,8 @@ extends Node
 class_name SupabaseManager
 
 # Supabase configuration - REPLACE WITH YOUR ACTUAL VALUES
-const SUPABASE_URL = "YOUR_SUPABASE_URL_HERE"  # e.g., "https://your-project.supabase.co"
-const SUPABASE_ANON_KEY = "YOUR_ANON_KEY_HERE"  # Your public anon key
+const SUPABASE_URL = "https://ajkcuijxkwiwmbxokexb.supabase.co"  # e.g., "https://your-project.supabase.co"
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqa2N1aWp4a3dpd21ieG9rZXhiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg3NjE2NDMsImV4cCI6MjA3NDMzNzY0M30.dnDri0J7mUCSL5pWHbsY-TgfH73yqeWTQ8loST78hnM"  # Your public anon key
 
 var http_request: HTTPRequest
 var current_player_id: String = ""
